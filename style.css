@@ -1,0 +1,466 @@
+* {
+  background-color: black;
+  padding: 0%;
+  margin: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+.header {
+  position: fixed;
+  padding-top: 5px;
+  padding-left: 5px;
+  font-size: 30px;
+  height: 40px;
+  width: 100%;
+}
+.current-page {
+  background-color: #d52778;
+  color: black;
+  padding: 3px;
+}
+.logo {
+  height: 40px;
+  float: right;
+  padding-right: 10px;
+}
+.footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  border-top: 2px solid #764bc4;
+}
+
+/* HOME PAGE */
+
+.title {
+  padding-top: 70px;
+  text-align: center;
+}
+h1 {
+  color: #d52778;
+  font-size: 50px;
+}
+h2 {
+  color: #764bc4;
+  font-size: 40px;
+}
+h3 {
+  padding-top: 5px;
+  color: rgb(172, 172, 172);
+}
+p {
+  font-size: 20px;
+  color: whitesmoke;
+}
+.boxImg1 {
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.img1 {
+  height: 450px;
+  align-self: center;
+}
+.boxHome {
+  display: flex;
+  flex-direction: row;
+  height: 450px;
+  width: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
+  align-items: center;
+  text-align: center;
+}
+.img2 {
+  height: 450px;
+  padding-left: 5px;
+  align-self: center;
+}
+
+/* ABOUT US */
+
+.aboutUs {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 90%;
+  padding-top: 20px;
+  padding-left: 10%;
+}
+.aboutUsBox {
+  display: flex;
+  height: 30%;
+  width: 100%;
+}
+.aboutUsImg {
+  height: 300px;
+  padding-top: 10px;
+}
+.aboutUsTxt {
+  margin-left: 20px;
+  width: 50%;
+}
+
+/* BENEFITS */
+
+.benefits {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  width: 90%;
+  padding-top: 20px;
+  padding-left: 10%;
+  padding-bottom: 8%;
+}
+.benefitsBox {
+  color: whitesmoke;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.benefitsImg {
+  padding-top: 10px;
+  width: 350px;
+  object-fit: contain;
+}
+.benefitsList {
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-left: 20px;
+  width: 100%;
+}
+
+/* INFORMATION */
+
+.informationBox {
+  display: flex;
+  width: 80%;
+  padding-top: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+  justify-content: center;
+}
+table,
+th,
+td {
+  align-self: center;
+  width: 50%;
+  height: 200px;
+  padding: 0%;
+  border: 2px solid #d52778;
+  border-collapse: collapse;
+  text-align: center;
+  background-color: grey;
+  font-size: 30px;
+}
+
+.raffleBox {
+  display: flex;
+  flex-direction: row;
+  height: 75vh;
+  width: 100%;
+}
+.mapBox {
+  height: 60vh;
+  width: 50vw;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.formBox {
+  width: 30%;
+  height: 50%;
+  margin-top: 5%;
+  padding-bottom: 5%;
+  padding-right: 5%;
+}
+
+fieldset {
+  padding-top: 5%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  height: 70%;
+  border: none;
+}
+legend {
+  font-size: 1.5em;
+  color: #764bc4;
+}
+fieldset {
+  height: 70%;
+  border: none;
+  border-radius: 6px;
+  border: none;
+}
+label {
+  display: inline-block;
+  margin-top: 0.05em;
+  width: 100%;
+  color: whitesmoke;
+}
+label:first-of-type {
+  margin-top: 0;
+}
+input[type="text"],
+input[type="email"] {
+  height: 1.25em;
+  width: 89%;
+  outline: none;
+  background-color: whitesmoke;
+}
+input[type="radio"] {
+  display: inline-block;
+  height: 1em;
+  width: 15px;
+  outline: none;
+}
+
+select {
+  height: 1.25em;
+  width: 90%;
+  outline: none;
+  background-color: whitesmoke;
+}
+option {
+  background-color: whitesmoke;
+}
+textarea {
+  resize: vertical;
+  width: 90%;
+  outline: none;
+  background-color: whitesmoke;
+}
+input[type="submit"] {
+  cursor: pointer;
+  background-color: #764bc4;
+  border: none;
+  color: black;
+  margin-top: 2em;
+  height: 30px;
+  width: 90%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
+/* CONTACT */
+
+.contact {
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 80%;
+  text-align: center;
+}
+.imgBox {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.img3 {
+  height: 500px;
+  align-self: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.contactInfo {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  padding-top: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.contactLabel {
+  color: #764bc4;
+  font-weight: bolder;
+}
+.contactLink {
+  color: #d52778;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  body {
+    max-width: 100%;
+  }
+  .header {
+    margin-top: 40px;
+    padding: 0;
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .logo {
+    margin-top: -40px;
+    height: 40px;
+    width: 100vh;
+    position: fixed;
+    align-self: center;
+    object-fit: contain;
+  }
+  /* HOME PAGE */
+
+  .title {
+    padding-top: 275px;
+    height: auto;
+    width: auto;
+    text-align: center;
+    margin: 0;
+  }
+  h1 {
+    color: #d52778;
+    font-size: 30px;
+  }
+  h2 {
+    color: #764bc4;
+    font-size: 40px;
+  }
+  h3 {
+    padding-top: 5px;
+    color: rgb(172, 172, 172);
+  }
+  p {
+    font-size: 20px;
+    color: whitesmoke;
+  }
+  .boxImg1 {
+    height: auto;
+    width: 100vw;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .img1 {
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+  }
+  .boxHome {
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    align-items: center;
+    text-align: center;
+  }
+  .img2 {
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+  }
+  /* ABOUT US */
+
+  .aboutUs {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 20px;
+    padding-left: 0;
+  }
+  .aboutUsBox {
+    display: flex;
+    flex-wrap: wrap;
+    height: 30%;
+    width: 90%;
+    padding: 0;
+    justify-content: center;
+  }
+  .aboutUsImg {
+    height: auto;
+    max-width: 90%;
+  }
+  .aboutUsContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .aboutUsTxt {
+    width: 90%;
+    margin-left: 0;
+  }
+
+  /* CONTACT */
+
+  .imgBox {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+  .contactInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .imgBox {
+    width: 100%;
+    text-align: center;
+  }
+  .img3 {
+    width: 100vw;
+    height: 500px;
+    align-self: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  /* BENEFITS */
+
+  .benefits {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+  }
+  .benefitsBox {
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 100vw;
+  }
+  .benefitsImg {
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+  }
+  .benefitsList {
+    padding-top: 0px;
+    padding-left: 10%;
+    margin-left: 0px;
+    width: 90%;
+  }
+  .raffleBox {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    padding-bottom: 20px;
+    justify-content: center;
+  }
+  .mapBox {
+    width: 90%;
+  }
+  .formBox {
+    width: 90%;
+    height: auto;
+    padding-left: 10px;
+  }
+}

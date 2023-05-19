@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mindy Games | Raffle</title>
+    <link rel="shortcut icon" href="assets/icon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <img class="logo" src="assets/logo.png" alt="Mindy Games logo" />
+      <a href="index.html">|Home</a>
+      <a href="aboutUs.html">|About US</a>
+      <a href="benefitsTips.html">|Benefits and Tips</a>
+      <a href="information.html">|More Information</a>
+      <a class="current-page" href="#">|Raffle</a>
+      <a href="contact.html">|Contact</a>
+    </div>
+    <div class="title">
+      <h1>MINDY GAMES</h1>
+      <h2>RAFFLE</h2>
+    </div>
+    <section class="raffleBox">
+      <div class="mapBox">
+        <iframe
+          class="map"
+          width="100%"
+          height="100%"
+          frameborder="0"
+          scrolling="no"
+          marginheight="0"
+          marginwidth="0"
+          src="https://maps.google.com/maps?width=90%25&amp;height=600&amp;hl=en&amp;q=mindhub%20buenos%20aires+(a)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+        ></iframe>
+      </div>
+      <div class="formBox">
+        <form action="show_data.html" method="get">
+          <fieldset>
+            <legend>Registration</legend>
+            <label for="firstName">First Name</label>
+            <input type="text" name="firstName" id="firstName" />
+            <label for="lastName">Last Name</label>
+            <input type="text" name="lastName" id="lastName" />
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" />
+            <label for="chooseGame">Choose Game</label>
+            <select name="chosenGame" id="chooseGame">
+              <option value="" disabled selected hidden></option>
+              <option value="1">Counter Strike</option>
+              <option value="2">Valorant</option>
+              <option value="3">League of Legends</option>
+            </select>
+            <label for="chooseDate">Choose Date</label>
+            <select name="chosenDate" id="chosenDame">
+              <option value="" disabled selected hidden></option>
+              <option value="20/8">20/8</option>
+              <option value="12/10">12/10</option>
+              <option value="27/11">27/11</option>
+            </select>
+          </fieldset>
+          <fieldset class="paymentOptions">
+            <legend>Payment Options:</legend>
+            <label for="cash">Cash</label>
+            <input type="radio" id="cash" name="payment" value="cash" />
+            <label for="creditCard">Credit Card</label>
+            <input type="radio" id="creditCard" name="payment" value="creditCard" />
+            <label for="debitCard">Debit Card</label>
+            <input type="radio" id="debitCard" name="payment" value="debitCard" />
+            <label for="msg">Message (optional)</label>
+            <textarea name="mensaje" id="msg" placeholder="Message"></textarea>
+            <input type="submit" value="Submit" />
+          </fieldset>
+        </form>
+      </div>
+    </section>
+    <div class="footer">
+      <p>Created by: Adrian Ruggia</p>
+    </div>
+  </body>
+</html>
